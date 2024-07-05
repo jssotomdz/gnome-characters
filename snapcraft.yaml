@@ -59,6 +59,8 @@ parts:
       - desktop-file-utils
       - gperf
       - libunistring-dev
-      - python3-distutils
+      - libmozjs-115-dev
+    stage-packages:
+      - libmozjs-115-0
     prime:
       - -usr/bin/gnome-characters
